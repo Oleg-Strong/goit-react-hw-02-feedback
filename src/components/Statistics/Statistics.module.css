@@ -5,12 +5,33 @@
 }
 .statisticsItem {
   padding: 10px;
+  background-color: #ffbf00;
+  box-shadow: 0px 0px 40px -3px #ffbf00;
+  border-radius: 10px;
+}
+.good {
+  composes: statisticsItem;
   background-color: #55ff00;
   box-shadow: 0px 0px 40px -3px #55ff00;
-  border-radius: 10px;
+}
+.neutral {
+  composes: statisticsItem;
+  background-color: #fff700;
+  box-shadow: 0px 0px 40px -3px #fff700;
+}
+.bad {
+  composes: statisticsItem;
+  background-color: #ff0505;
+  box-shadow: 0px 0px 40px -3px #ff0505;
+}
+.total {
+  composes: statisticsItem;
+  background-color: #3750f6;
+  box-shadow: 0px 0px 40px -3px #3750f6;
 }
 .statisticText {
   color: rgb(169, 169, 171);
   font-size: 30px;
   text-align: center;
 }
+/* #ff0505 */
